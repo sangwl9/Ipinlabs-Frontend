@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bag-img {
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    background-image: url("https://drive.google.com/uc?export=view&id=1c-IRSaiMoVmlMW_sqh0HCb05y9oxMFNE");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.bag-img * {
+    height: 25%;
+}
+
+p {
+    width: 50%;
+    height: 30%;
+    color: white;
+    font-weight: 800;
+    font-size: 3.5vmin;
+}
+
+.ipin-logo {
+    width: 25%;
+    height: 25%;
+}
